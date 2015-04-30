@@ -3,6 +3,11 @@
 
 int main()
 {
-   printf("hello world!\n");
+   greet();
    exit(0);
+}
+
+void greet()
+{
+   printf("hello world");
 }
